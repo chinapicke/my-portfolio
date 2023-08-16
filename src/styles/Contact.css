@@ -1,0 +1,26 @@
+.formLinksArea{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+.wholecontactarea{
+    background-color: rgba(150,168,175,0.5);
+    margin-right: 20px;
+    margin-left:20px;
+    margin-bottom: 20px;
+    padding-bottom: 50px;
+    border-radius: 1%;
+}
+
+.contactHeading{
+    font-family: 'Righteous';
+    padding-top: 20px;
+}
+
+@media (max-width: 768px){
+    .formLinksArea{
+        margin-right: 5px;
+    }
+}

@@ -1,0 +1,18 @@
+[
+    {
+        "id" : 1,
+        "projectname": "gutenBooks",
+        "description": "Tablet responsive web App for users who would like to read free classical books on the go. Using the Gutendex API, we pull books from the Gutenberg Project epub database and display them using React Reader (powered by ePubJS).",
+        "image":"/images/gutenBooks.png",
+        "deployedURL": "https://gutenbooksweb.netlify.app/",
+        "githubUrl": "https://github.com/berta-rf/gutenBooks"    
+    }, 
+    {
+        "id" : 2,
+        "projectname": "ZoomAway",
+        "description": "Responsive car rental app at affordable rates.",
+        "image":"/images/SM.png",
+        "deployedURL": "https://zoomaway.netlify.app/",
+        "githubUrl": "https://github.com/chinapicke/zoomaway"    
+    }
+]

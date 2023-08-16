@@ -1,0 +1,77 @@
+.contactLinks{
+   margin: 20px;
+   padding-top: 20px;
+}
+
+.linkImage{
+    width: 2rem;
+    height:2rem;
+    margin-top: 5px;
+}
+
+.CVIcon{
+    width:4rem;
+    height:4rem; 
+    margin-top: 1rem;
+    margin-bottom: 1rem; 
+}
+
+.linkImageText{
+    border: 2px solid black;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}
+
+.CV{
+    margin-right: 10px;
+}
+
+.CVLink{
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.contactURL{
+    text-decoration: none;
+    padding-top: 20px;
+    color: black;
+}
+
+.contactURL a{
+    padding-top: 20px;
+}
+.CVText{
+    margin-top:40px;
+    position: relative;
+    right:180px;
+}
+
+.phoneEmail{
+    position:relative;
+    bottom: 10px;
+}
+
+.col-4{
+    padding-top: 10px;
+}
+
+@media (max-width: 768px){
+    .CVText{
+        right: 60px;
+    }
+}
+
+
+/* For phones */
+@media (max-width: 480px){
+    .contactLinks{
+        margin:0;
+        margin-left:10px;
+    }
+
+    .CVText{
+        right:70px;
+    }
+}

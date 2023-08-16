@@ -1,0 +1,101 @@
+.aboutImage {
+    width: 29rem;
+    height: 27rem;
+    border-radius: 50%;
+    margin-left: 50px;
+    padding-bottom: 20px;
+}
+
+.aboutMe p {
+    margin-bottom: 50px;
+}
+
+.aboutContent {
+    padding-top: 50px;
+    margin-right: 20px;
+}
+
+.aboutSubheading {
+    padding-bottom: 20px;
+    font-family: 'Righteous';
+}
+
+.skillsList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+
+} 
+
+.skillsSubheading {
+    text-align: center;
+    font-family: 'Righteous';
+}
+
+.skills {
+    padding-top: 40px;
+}
+/* For tablets */
+@media (max-width: 768px) {
+    .aboutContent {
+        background-color: white;
+        margin-left: 20px;
+    }
+
+    .aboutImage {
+        width: 20rem;
+        height: 20rem;
+        position: relative;
+        top: 80px;
+        right: 40px;
+    }
+
+    .skills {
+        display: none;
+    }
+
+
+
+/* For phones */
+@media (max-width: 480px) {
+    .aboutImage {
+        width: 15rem;
+        height: 15rem;
+        position: relative;
+        right: 10px;
+        top: 50px !important;
+        border: 5px solid black;
+        padding: 0px;
+        margin-bottom: 20px;
+    }
+
+    .aboutText {
+        padding: 10px;
+        text-align: justify;
+        font-size: 20px;
+    }
+
+    .aboutContent {
+        background-color: white;
+        margin-left: 20px;
+    }
+
+    .skills {
+        padding-left: 20px;
+    }
+
+    .skillsList {
+        display: flex;
+        flex-direction:row;
+    }
+
+    .aboutmeSkills{
+        padding-top: 80px;
+    }
+
+    
+}
+
+}
+
