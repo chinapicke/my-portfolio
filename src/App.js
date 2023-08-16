@@ -6,7 +6,6 @@ import Homepage from './pages/Homepage';
 import Contact from './pages/Contact';
 import About from './pages/AboutMe';
 import Projects from './pages/Projects';
-import AppCss from './styles/App.css'
 
 
 function App() {

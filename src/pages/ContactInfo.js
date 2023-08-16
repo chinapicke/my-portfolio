@@ -13,7 +13,7 @@ function Contacts(props){
   return (
     <Row className='linkImageText'>
       <Col className='icons' xs={2}>
-      <a href={props.link} target="_blank" rel="contactlink"  className='contactURL pt-2'>
+      <a href={props.link}  rel="contactlink"  className='contactURL pt-2'>
       <img src={props.icon} className='linkImage my-2' alt='contact icons'/>
       </a>
       </Col>
@@ -41,7 +41,7 @@ function ContactInfo() {
       </Row>
       <Row className="CV">
         <Col>
-        <a href={CV} target="_blank" rel="CV link" className='CVLink'>
+        <a href={CV}  rel="CV link" className='CVLink'>
         <img className='CVIcon ml-10' src='/images/cv.png' alt='CV icon'></img>
         </a>
         </Col>

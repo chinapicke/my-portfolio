@@ -57,7 +57,7 @@ function Homepage() {
             </Col>
             <Col md={5}>
             <div className='mePicMobile d-flex justify-content-center'>
-            <img className='heroPicture mx-1' src={MyPicture} alt='picture of me'/>
+            <img className='heroPicture mx-1' src={MyPicture} alt='picturePortfolio'/>
             </div>
             </Col>
           </Row>

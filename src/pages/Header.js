@@ -27,12 +27,12 @@ function Header() {
                     </Nav>
                 </Navbar.Collapse>
                 <Navbar.Brand className='socialMediaLinks'>
-                    <a href='https://www.linkedin.com/in/china-pickering-019153250/' target="_blank" rel="linkedInLinkNav">
+                    <a href='https://www.linkedin.com/in/china-pickering-019153250/'  rel="linkedInLinkNav">
                         <img className='linkedinNav' src={LinkedinNav} alt='linkedin Icon' />
                     </a>
                 </Navbar.Brand>
                 <Navbar.Brand>
-                    <a href='https://github.com/chinapicke' target="_blank" rel="githubLinkNav">
+                    <a href='https://github.com/chinapicke'  rel="githubLinkNav">
                     <img className='githubNav' src={GithubNav} alt='Github Icon' />
                     </a>
                 </Navbar.Brand>
