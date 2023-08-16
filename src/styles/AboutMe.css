@@ -14,8 +14,14 @@
 
 .aboutContent {
     padding-top: 50px;
-    margin-right: 20px;
+    background-color: white;
 }
+
+.aboutText{
+    margin: 30px;
+   width:90%
+}
+
 
 .aboutSubheading {
     padding-bottom: 20px;
@@ -27,12 +33,11 @@
     flex-direction: row;
     justify-content: space-between;
     margin-top: 10px; */
+    margin-left:30px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
 
 }
-
-
 
 .skillsSubheading {
     text-align: center;
@@ -41,63 +46,62 @@
 
 .skills {
     padding-top: 40px;
+    padding-bottom:10px;
 }
 
-@media (max-width: 480px) {
+@media (min-width: 480px) {
     
 
     .aboutText {
-        padding: 10px;
-        text-align: justify;
-        font-size: 20px;
+            margin:0px;
+           width:90%
     }
 
     .aboutContent {
         background-color: white;
-        margin-left: 20px;
+        margin-left:10px;
+        margin-right: 20px;
     }
 
     
-
-    /* .skillsList {
-        display: flex;
-        flex-direction:row;
-    } */
 
     .aboutmeSkills{
         padding-top: 80px;
     }
+}
 
-    
+@media (min-width: 575px) {
+    .aboutImage {
+        margin-top: 200px;
+    }
 }
 
 /* For tablets */
 
-/* @media (min-width:768px){
-    .aboutImage {
-        width: 29rem;
-        height: 27rem;
-        border-radius: 50%;
-        padding-bottom: 20px;
-    }
-}
-@media (mix-width: 768px) {
-    .aboutContent {
-        background-color: white;
-        margin-left: 20px;
-    }
-
+@media (min-width:768px){
     .aboutImage {
         width: 20rem;
         height: 20rem;
-        position: relative;
-        top: 80px;
+        border-radius: 50%;
     }
 
-    .skills {
-        display: none;
-    } */
-
+    .aboutContent {
+       padding-top:0px;
+    }
+}
+@media (min-width:1024px){
+    .aboutImage {
+        width: 26rem;
+        height: 26rem;
+        margin-top: 100px;
+        border-radius: 50%;
+    }
+    .aboutContent {
+        background-color: white;
+        margin-left:40px;
+        margin-right: 40px;
+    }
+}
 
 
 /* For phones */

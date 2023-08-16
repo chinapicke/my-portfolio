@@ -28,8 +28,8 @@ function Contacts(props){
 
 function ContactInfo() {
   return (
-    <Container className='contactLinks'>
-      <Row>
+    <Container className='contactLinks '>
+      <Row className='contactLinksRow d-flex justify-content-center'>
         {ContactShow.map((link) => (
           <Contacts
           icon ={link.icon}
@@ -42,12 +42,13 @@ function ContactInfo() {
       <Row className="CV">
         <Col>
         <a href={CV} target="_blank" rel="CV link" className='CVLink'>
-        <img className='CVIcon' src='/images/cv.png' alt='CV icon'></img>
+        <img className='CVIcon ml-10' src='/images/cv.png' alt='CV icon'></img>
         </a>
         </Col>
         <Col>
-        <p className='CVText'>CV</p>
+        <p className='CVText mt-10'>CV</p>
         </Col>
+
       </Row>
     </Container>
   )

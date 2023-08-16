@@ -5,7 +5,7 @@ import '../styles/AboutMe.css';
 
 function AboutMe() {
   return (
-    <Row className='aboutContent'>
+    <Row className='aboutContent' >
       <Col sm={6} className='imgCol d-flex justify-content-center'>
         <img className='aboutImage' src='/images/bali.JPG' alt='me travelling'></img>
       </Col>
@@ -24,6 +24,8 @@ function AboutMe() {
             <img src='/images/jquery.png' alt='JQuery skill' className='skillIcon'  style={{width: '50px',height:'50px', margin:'10px'}}/>
             <img src='/images/node.png' alt='Node skill' className='skillIcon'  style={{width: '50px',height:'50px', margin:'10px'}}/>
             <img src='/images/atom.png' alt='React skill' className='skillIcon'  style={{width: '50px',height:'50px', margin:'10px'}}/>
+            <img src='/images/tailwind.png' alt='Tailwind skill' className='skillIcon'  style={{width: '50px',height:'50px', margin:'10px'}}/>
+
           </div>
         </div>
       </Col>

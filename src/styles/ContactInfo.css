@@ -58,11 +58,9 @@
     padding-top: 10px;
 }
 
-/* @media (max-width: 768px){
-    .CVText{
-        right: 60px;
-    }
-} */
+.contactLinksRow{
+    width:95%;
+}
 
 
 /* For phones */
@@ -71,8 +69,15 @@
         margin:0;
         margin-left:10px;
     }
+}
 
-    /* .CVText{
-        right:70px;
-    } */
+
+@media(min-width:768px){
+    .phoneEmail, .contactName{
+        font-size: 24px;
+    }
+
+    
+
+
 }

@@ -7,12 +7,7 @@
     margin-bottom: 10px;
 }
 
-/* input{
-    padding: 10px;
-    width: 190%;
-    border: 2px solid black;
-    border-radius: 5px;
-} */
+
 input{
     padding: 10px;
     width: 80vw;
@@ -21,9 +16,6 @@ input{
 }
 
 
-/* .email{
-    width: 174% !important;
-} */
 
 .thoughts{
     width: 80vw;
@@ -34,30 +26,35 @@ input{
     margin-bottom: 20px;
 }
 
-/* .submitForm{
-margin-left: 220px;
-margin-top: 10px;
-} */
+
 
 .rightContactForm{
     display: flex;
 }
 
-@media (max-width: 768px){
-    /* input{
+@media (min-width: 700px){
+    input{
         padding: 10px;
-        width: 115%;
+        width: 90%;
         border: 2px solid black;
         border-radius: 5px;
-    } */
+    }
     
     
-    /* .email{
-        width: 105% !important;
-    } */
-    
-    /* .thoughts{
-        width: 98%;
+    .thoughts{
+        width: 90%;
         padding: 40px;
-} */
+}
+}
+
+@media (min-width: 1024px){
+    input{
+       
+        width: 150%;
+    }
+    
+    
+    .thoughts{
+        width: 110%;
+}
 }

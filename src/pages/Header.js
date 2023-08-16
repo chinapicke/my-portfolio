@@ -26,7 +26,7 @@ function Header() {
                         <Nav.Link className='nav-links' href="contactme">Contact Me</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
-                <Navbar.Brand>
+                <Navbar.Brand className='socialMediaLinks'>
                     <a href='https://www.linkedin.com/in/china-pickering-019153250/' target="_blank" rel="linkedInLinkNav">
                         <img className='linkedinNav' src={LinkedinNav} alt='linkedin Icon' />
                     </a>

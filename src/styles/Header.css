@@ -8,15 +8,7 @@
     align-items: center;
 } 
 
-/* .nav-item{
-    display: flex;
-    justify-content: center;
-    text-transform: uppercase;
-    letter-spacing: 1px;
 
-    font-weight: bold;
-    align-items: center;
-}  */
 
 .header{
     background-color: white;
@@ -104,6 +96,7 @@ margin-left: 60px;
     }
 
     .githubNav, .linkedinNav{
+        display: inline-block;
         width: 55px;
         height: 55px;
         border-radius: 50%;
@@ -116,6 +109,23 @@ margin-left: 60px;
         text-align: center;
     }
     
+}
+
+@media (min-width:1024px){
+
+    .navbar-collapse{
+        justify-content: center;
+    }
+    
+    .nav-item{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+    font-weight: bold;
+    align-items: center;
+} 
 }
 
 
