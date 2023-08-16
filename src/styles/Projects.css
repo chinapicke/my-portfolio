@@ -119,3 +119,13 @@
    }
 
 }
+ 
+@media (min-screen:1500px){
+.bigcard {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center;
+}
+}

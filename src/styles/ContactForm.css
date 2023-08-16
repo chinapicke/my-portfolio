@@ -7,20 +7,26 @@
     margin-bottom: 10px;
 }
 
-input{
+/* input{
     padding: 10px;
     width: 190%;
+    border: 2px solid black;
+    border-radius: 5px;
+} */
+input{
+    padding: 10px;
+    width: 80vw;
     border: 2px solid black;
     border-radius: 5px;
 }
 
 
-.email{
+/* .email{
     width: 174% !important;
-}
+} */
 
 .thoughts{
-    width: 153%;
+    width: 80vw;
     padding-bottom: 70px;
 }
 
@@ -28,30 +34,30 @@ input{
     margin-bottom: 20px;
 }
 
-.submitForm{
+/* .submitForm{
 margin-left: 220px;
 margin-top: 10px;
-}
+} */
 
 .rightContactForm{
     display: flex;
 }
 
 @media (max-width: 768px){
-    input{
+    /* input{
         padding: 10px;
         width: 115%;
         border: 2px solid black;
         border-radius: 5px;
-    }
+    } */
     
     
-    .email{
+    /* .email{
         width: 105% !important;
-    }
+    } */
     
-    .thoughts{
+    /* .thoughts{
         width: 98%;
         padding: 40px;
-}
+} */
 }

@@ -1,10 +1,12 @@
 .aboutImage {
-    width: 29rem;
-    height: 27rem;
-    border-radius: 50%;
-    margin-left: 50px;
-    padding-bottom: 20px;
-}
+    
+        width: 15rem;
+        height: 15rem;
+        border: 5px solid black;
+        padding: 0px;
+        margin-bottom: 20px;
+        border-radius: 50%;
+    }
 
 .aboutMe p {
     margin-bottom: 50px;
@@ -21,12 +23,16 @@
 }
 
 .skillsList {
-    display: flex;
+    /* display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 10px;
+    margin-top: 10px; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
 
-} 
+}
+
+
 
 .skillsSubheading {
     text-align: center;
@@ -36,39 +42,9 @@
 .skills {
     padding-top: 40px;
 }
-/* For tablets */
-@media (max-width: 768px) {
-    .aboutContent {
-        background-color: white;
-        margin-left: 20px;
-    }
 
-    .aboutImage {
-        width: 20rem;
-        height: 20rem;
-        position: relative;
-        top: 80px;
-        right: 40px;
-    }
-
-    .skills {
-        display: none;
-    }
-
-
-
-/* For phones */
 @media (max-width: 480px) {
-    .aboutImage {
-        width: 15rem;
-        height: 15rem;
-        position: relative;
-        right: 10px;
-        top: 50px !important;
-        border: 5px solid black;
-        padding: 0px;
-        margin-bottom: 20px;
-    }
+    
 
     .aboutText {
         padding: 10px;
@@ -81,14 +57,12 @@
         margin-left: 20px;
     }
 
-    .skills {
-        padding-left: 20px;
-    }
+    
 
-    .skillsList {
+    /* .skillsList {
         display: flex;
         flex-direction:row;
-    }
+    } */
 
     .aboutmeSkills{
         padding-top: 80px;
@@ -97,5 +71,36 @@
     
 }
 
+/* For tablets */
+
+/* @media (min-width:768px){
+    .aboutImage {
+        width: 29rem;
+        height: 27rem;
+        border-radius: 50%;
+        padding-bottom: 20px;
+    }
 }
+@media (mix-width: 768px) {
+    .aboutContent {
+        background-color: white;
+        margin-left: 20px;
+    }
+
+    .aboutImage {
+        width: 20rem;
+        height: 20rem;
+        position: relative;
+        top: 80px;
+    }
+
+    .skills {
+        display: none;
+    } */
+
+
+
+/* For phones */
+
+
 

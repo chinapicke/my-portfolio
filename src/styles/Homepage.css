@@ -2,12 +2,12 @@
 
 
 .heroPicture{
-    width:26rem;
-    height:25rem;
+    width:15rem;
+    height:14rem;
     margin-top: 60px;
-    margin-left:60px;
+    /* margin-left:60px; */
     position: relative;
-    left: 50px;
+    /* left: 50px; */
     border-radius: 50%;
     border: 2px solid white;
     padding: 0;
@@ -58,35 +58,26 @@
     border: 1px #c68f73 solid;;
 }
 
-@media (max-width: 768px){
-    .projectsAll, .aboutContent{
-        background-color: rgba(150, 168, 175, 0.5);
-    }
+@media (min-width:470px){
     .heroPicture{
-        position: relative;
-        top: 50px;
-        left: 10px;
-        width: 18rem;
-        height: 18rem;
+        margin-left:60px;
+        left: 50px;
     }
 }
-
-
-@media (max-width: 480px){
-    .projectsAll, .aboutContent {
-        background-color: rgba(150, 168, 175, 0.5);
-    }
+@media (min-width: 768px){
     .heroPicture{
-        width:15rem;
-        height:14rem;
+        width:20rem;
+        height:20rem;
+        margin-top: 30px;
+        margin-left:60px;
         position: relative;
-        left: 5px;
-    }
-    .name, .headerSubheading, .phrase{
-        text-align: center;
+        left: 50px;
+        border-radius: 50%;
+        border: 2px solid white;
+        padding: 0;
     }
 
-    .name, .phrase{
-        margin-right: 30px;
+    .heroBanner{
+        width:100vw;
     }
 }

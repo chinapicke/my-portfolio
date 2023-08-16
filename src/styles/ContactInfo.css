@@ -44,11 +44,12 @@
 }
 .CVText{
     margin-top:40px;
-    position: relative;
-    right:180px;
+    /* position: relative;
+    right:180px; */ 
 }
 
 .phoneEmail{
+    word-wrap: break-word;
     position:relative;
     bottom: 10px;
 }
@@ -57,11 +58,11 @@
     padding-top: 10px;
 }
 
-@media (max-width: 768px){
+/* @media (max-width: 768px){
     .CVText{
         right: 60px;
     }
-}
+} */
 
 
 /* For phones */
@@ -71,7 +72,7 @@
         margin-left:10px;
     }
 
-    .CVText{
+    /* .CVText{
         right:70px;
-    }
+    } */
 }

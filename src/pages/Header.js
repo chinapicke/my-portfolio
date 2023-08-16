@@ -11,16 +11,15 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function Header() {
     return (
         <div className="header">
-            <Navbar bg="white"
-                sticky="top" expand="sm" collapseOnSelect>
-                <Navbar.Brand>
+            <Navbar sticky="top" expand="sm" collapseOnSelect className='d-flex justify-content-center navbarSection'>
+                <Navbar.Brand className='navbarLogo'>
                     <img className='logo' src={mylogo} alt='China Pickering Logo' />
                     China Pickering
                 </Navbar.Brand>
-
+                
                 <Navbar.Toggle className="menuDropdown" />
                 <Navbar.Collapse >
-                    <Nav className='nav-item container-fluid'>
+                    <Nav className='nav-item  navbarTabs'>
                         <Nav.Link className='nav-links' href="/">Home</Nav.Link>
                         <Nav.Link className='nav-links' href="aboutme">About Me</Nav.Link>
                         <Nav.Link className='nav-links' href="projects">Projects</Nav.Link>

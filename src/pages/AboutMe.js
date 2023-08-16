@@ -6,7 +6,7 @@ import '../styles/AboutMe.css';
 function AboutMe() {
   return (
     <Row className='aboutContent'>
-      <Col sm={6} className='imgCol'>
+      <Col sm={6} className='imgCol d-flex justify-content-center'>
         <img className='aboutImage' src='/images/bali.JPG' alt='me travelling'></img>
       </Col>
       <Col sm={6} className='aboutmeSkills'>

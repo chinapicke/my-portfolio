@@ -23,7 +23,7 @@ function ProjectCard(props) {
     return (
                 <Card className= "maincardBody me-2 mb-5 pb-0" style={{ width: '40rem', height:'30rem' }}>
                     <Row>
-                        <Col className="leftSideCard pt-3 ms-3 pb-1 mb-2">
+                        <Col className="leftSideCard pt-3 ms-2 pb-1 mb-2">
                             <Card className="infoAndPicture d-flex flex-column" style={{ width: '25rem', height:'28rem' }}>
                                 <Card.Img className="projectImage"variant="card-img-top" alt={props.projectname} src={props.image} />
                                 <Card.Body className='projectContent'>

@@ -42,19 +42,23 @@ function Homepage() {
                         url: 'path/to/svg.svg'
                     }
                 }} />
-            <Col sm={6} className='heroInfo'>
-              <h1 className='name'>China Pickering</h1>
-              <h2 className='headerSubheading'>Portfolio</h2>
-              <h3 className='phrase'>Learning website development from scratch, whilst travelling the WORLD!</h3>
+            <Col md={6} className='heroInfo'>
+              <h1 className='name text-center'>China Pickering</h1>
+              <h2 className='headerSubheading text-center'>Portfolio</h2>
+              <h3 className='phrase text-center'>Learning website development from scratch, whilst travelling the WORLD!</h3>
+              <div className='headerBtns d-flex justify-content-center'>
               <Link to='/aboutme'>
                 <Button onClick={viewAbout} variant="primary" size='lg' className='AboutmeBtn me-4'>Get to know me</Button>
               </Link>
               <Link to='/contactme'>
                 <Button oncClick={viewContact} variant="light"size='lg' className='contactBtn'>Contact Me</Button>
               </Link>
+              </div>
             </Col>
-            <img className='heroPicture' src={MyPicture} alt='picture of me'/>
-            <Col>
+            <Col md={5}>
+            <div className='mePicMobile d-flex justify-content-center'>
+            <img className='heroPicture mx-1' src={MyPicture} alt='picture of me'/>
+            </div>
             </Col>
           </Row>
         </Container>

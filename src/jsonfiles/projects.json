@@ -2,7 +2,7 @@
     {
         "id" : 3,
         "projectname": "Broke but cultured",
-        "description": "App that helps travelers with budgeting their trips. It includes a travel currency converter with a search input by country that provides the user with currency exchange data, links to travel information and costs of the searched country. Different API's used to render content for the user.",
+        "description": "App that helps travelers with budgeting their trips. It includes a travel currency converter with a search input by country that provides the user with currency exchange data, links to travel information and costs of the searched country.",
         "image":"/images/brokebutcultured.png",
         "deployedURL": "https://chinapicke.github.io/-broke-but-cultured/",
         "githubUrl": "https://github.com/chinapicke/-broke-but-cultured.git"    

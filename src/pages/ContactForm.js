@@ -51,7 +51,9 @@ const ContactForm = () => {
           />
         </label>
       </div>
+      <div className='formBtn d-flex justify-content-end'>
       <Button className='submitForm btn btn-dark' size='lg' type="submit">Send</Button>
+      </div>
     </form>
   )
 }
