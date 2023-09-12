@@ -14,5 +14,13 @@
         "image":"/images/SM.png",
         "deployedURL": "https://zoomaway.netlify.app/",
         "githubUrl": "https://github.com/chinapicke/zoomaway"    
-    }
+    },
+    {
+        "id" : 3,
+        "projectname": "ShopIt",
+        "description": "Makeup e-commerce page made with React. Used UI from https://www.behance.net/gallery/80515301/Wavey-beauty-UI. Used free API from https://makeup-api.herokuapp.com/. First time using different aspect from newest React update.",
+        "image": "/images/shopitScreenshot.png",
+        "deployedURL": "https://shopitmakeup.netlify.app/",
+        "githubUrl": "https://github.com/chinapicke/shopit"      
+    }, 
 ]

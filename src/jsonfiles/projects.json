@@ -1,6 +1,6 @@
 [
     {
-        "id" : 3,
+        "id" : 4,
         "projectname": "Broke but cultured",
         "description": "App that helps travelers with budgeting their trips. It includes a travel currency converter with a search input by country that provides the user with currency exchange data, links to travel information and costs of the searched country.",
         "image":"/images/brokebutcultured.png",
@@ -8,20 +8,12 @@
         "githubUrl": "https://github.com/chinapicke/-broke-but-cultured.git"    
     }, 
     {
-        "id" : 4,
+        "id" : 5,
         "projectname": "Weather App",
         "description": "Weather app using weather API to display the current weather and 5 day forecast for cities. User inputs city name into the input bar, once user selects the 'search' button, then it will save the city into a button. This button will store the daily and 5 day forecast.",
         "image":"/images/weather.png" ,
         "deployedURL": "https://chinapicke.github.io/Weather_Forecast-/",
         "githubUrl": "https://github.com/chinapicke/Weather_Forecast-.git"      
-    }, 
-    {
-        "id" : 5,
-        "projectname": "Daily Planner",
-        "description": "Daily planner created to help with scheduling information within the working hours of the day between 9am and 5pm. Information is stored on the page. Each hour slot is coloured based on whether it is before, during or after the currnet hour.",
-        "image": "/images/planner.png",
-        "deployedURL": "https://chinapicke.github.io/Daily_Planner/",
-        "githubUrl": "https://github.com/chinapicke/Daily_Planner.git"      
     }, 
     {
         "id" : 6,
